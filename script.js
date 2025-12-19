@@ -40,7 +40,7 @@ function execute(cmd) {
 
   else if (cmd === "git add .") {
     staged = true;
-    print("Files added to staging area");
+    print("Files added to the staging area");
   }
 
   else if (cmd.startsWith("git commit")) {
